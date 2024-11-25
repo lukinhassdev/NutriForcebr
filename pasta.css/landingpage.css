@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: green;
+    padding: 40px;
+}
+.menu li img{
+    height: 100px;
+    cursor: pointer;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.menu ul a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.menu ul li a:hover {
+    transition: 0.3s ease;
+    transform: scale(1.0);
+    font-size: 20px;
+    color: gold;
+}
+.menu ul button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: gold;
+    cursor: pointer;
+}
+.menu ul button:hover {
+    transition: 0.3s ease;
+    transform: scale(1.0);
+    padding: 12px;
+    background-color: greenyellow;
+}
+section .texto .propaganda-cima {
+    height: 400px;
+    margin-left: 60%;
+}
+section .texto {
+    padding: 40px;
+}
+section .texto h1 {
+    font-size: 40px;
+}
+section .texto h1 strong {
+    color: green;
+}
+section .texto p {
+    margin-top: 50px;
+}
+section .texto .saibamais {
+    margin-top: 50px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+section .texto .saibamais:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    background-color: greenyellow;
+}
+section .texto .produtos{
+    margin-top: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: gold;
+    cursor: pointer;
+}
+section .texto .produtos:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+section .texto .propaganda-cima {
+    height: 400px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+ main {
+    padding: 60px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 75px;
+    width: 270px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    white-space: pre-line;
+    margin-top: 30vh;
+}
+.card img {
+    width: 125%;
+    border-radius: 10px;
+}
+.card:hover {
+    background-color: rgb(74, 255, 3);
+    transition: 0.3s ease;
+    transform: scale(1.0);
+}

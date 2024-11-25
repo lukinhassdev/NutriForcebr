@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.navegacao {
+    background-color: green;
+}
+ul {
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+ul input {
+    padding: 10px;
+    width: 60vh;
+    border-radius: 20px;
+    border: none;
+}
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 20px;
+}
+.card-whey,
+.card-creatina,
+.card-creatina2,
+.card-arginina {
+    width: 45%;
+    margin: 25px;
+    border-radius: 10px;
+    line-height: 1.7;
+    padding: 15px;
+    background-color: #4b4a4a;
+    color: #fff;
+    text-align: center;
+}
+.span1, .span2, .span3, .span4 {
+    color: green;
+}
+.btn-baixo {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.btn-baixo a {
+    text-decoration: none;
+    color: black;
+}
+.btn-baixo button {
+    background-color: green;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-baixo button:hover {
+    transition: 0.6s;
+    transform: scale(1.0);
+    padding: 25px;
+    background-color: greenyellow;
+}
+footer {
+    background-color: #333;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+footer p{
+    margin-top: 10px;
+}
+footer .social-icon {
+    display: flex;
+    list-style: none;
+}
+.svg {
+    cursor: pointer;
+}
+.produtos img {
+    border-radius: 20px;
+}
